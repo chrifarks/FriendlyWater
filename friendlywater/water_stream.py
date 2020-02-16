@@ -11,3 +11,13 @@ class WaterStream:
 
     def __post_init__(self):
         dataclass_type_validator(self)
+
+
+@dataclass(frozen=False)
+class WaterWay:
+    length_in_meters: int
+    height_in_meters: int
+    width_in_meters: int
+
+    def __post_init__(self):
+        dataclass_type_validator(self)
