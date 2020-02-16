@@ -14,7 +14,7 @@ class WaterStream:
 
 
 @dataclass(frozen=False)
-class WaterWay:
+class WaterChannel:
     length_in_meters: int
     height_in_meters: int
     width_in_meters: int
