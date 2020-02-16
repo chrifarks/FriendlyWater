@@ -1,0 +1,4 @@
+Channel characteristics
+Length(m),6000
+Height(m),100
+width(m),50
