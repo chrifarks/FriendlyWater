@@ -1,0 +1,10 @@
+channel:
+  length: 6000 # in meters
+  height: 100  # in meters
+  width: 50    # in meters
+
+conveyance: 0.1 # in Km^3/seg
+slope: 0
+delta_t: 1  # in seconds
+delta_x: 45 # in meters
+
