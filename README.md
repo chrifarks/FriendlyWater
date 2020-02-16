@@ -13,6 +13,7 @@ based on public available dataset's
 **Building**
 ```
 conda create -n <ENV_NAME> python=3.7
+conda activate <ENV_NAME>
 pip install -r requirements.txt
 ```
 
