@@ -6,8 +6,8 @@ from dataclass_type_validator import dataclass_type_validator, TypeValidationErr
 class WaterStream:
     slope: float
     conveyance: float
-    delta_t: float
-    delta_x = float
+    delta_t: int
+    delta_x: float
 
     def __post_init__(self):
         dataclass_type_validator(self)
