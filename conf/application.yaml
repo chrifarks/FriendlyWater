@@ -1,0 +1,11 @@
+channel:
+  length: !!int 6000          # in meters
+  height: !!int 100           # in meters
+  width:  !!int 50             # in meters
+
+stream:
+  conveyance: !!float 0.1     # in Km^3/seg
+  slope:      !!float 0
+  delta_t:    !!int   1       # in seconds
+  delta_x:    !!float 45      # in meters
+
