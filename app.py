@@ -9,17 +9,15 @@ from pandas import DataFrame
 
 def load_csv(file: TextIO, cols) -> DataFrame:
     try:
-        return pd.read_csv(file, delimiter=';', header=0,
-                           names=cols,
+        return pd.read_csv(file, delimiter=';', header=0, names=cols,
                            dtype={
-                                cols[0]: "float64",
-                                cols[1]: "float64",
-                                cols[2]: "float64"
-                            })
+                               cols[0]: "float64",
+                               cols[1]: "float64",
+                               cols[2]: "float64"
+                           })
 
     except (TypeError, ValueError) as ex:
-        print("Invalid data on {filename} - Some of the columns contain strings"
-              .format(filename=file.name))
+        print("Invalid data on {file}: Columns must not contain strings".format(file=file.name))
         exit(1)
 
 
