@@ -1,4 +1,4 @@
-certifi==2019.11.28
+certifi==2022.12.7
 dataclass-type-validator==0.0.4
 numpy==1.18.1
 pandas==1.0.1
